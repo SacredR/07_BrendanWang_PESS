@@ -71,13 +71,13 @@
 				
 				<tr>
 					<td width="50%" class="row-title row_title">Location:</td>
-					<td width="50%"><input type="text" name="Location" id="Location" class="text-input" placeholder="Location"></td>
+					<td width="50%"><input type="text" name="location" id="location" class="text-input" placeholder="Location"></td>
 				</tr>
 				
 				<tr>
 					<td width="50%" class="row-title row_title">Incident Type:</td>
 					<td width="50%">
-						<select name="incidentType" id="inciddentType">
+						<select name="incidentType" id="incidentType">
 							<?php foreach($incidentType as $key=> $value) {?>
 							<option value="<?php echo $key ?> " >
 							<?php echo $value ?> </option>
